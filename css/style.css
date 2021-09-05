@@ -33,6 +33,10 @@
     --text:#808080;
 }
 
+body{
+    margin: 0;
+}
+
 h1{
     font-family:Proxima Nova Bold;
     text-align: center;
@@ -51,14 +55,15 @@ h1{
 span{
     color: var(--seconday);
 }
-
+.container{
+    margin: auto;
+    width: 1140px;
+}
 .about{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:50px;
     margin-top: 53px;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 74px;
 }
 
